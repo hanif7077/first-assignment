@@ -12,9 +12,10 @@ body {
     background: #fff;
 }
 
-image {
-    width: 100%;
+img {
+    width: auto;
     height: auto;
+    max-width: 100%;
 }
 
 .header {
