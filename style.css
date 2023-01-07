@@ -12,17 +12,9 @@ body {
     background: #fff;
 }
 
-img {
-    width: auto;
-    height: auto;
-    max-width: 100%;
-}
-
 .header {
     background-image: url('./images/banner/banner2.png');
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     display: flex;
     justify-content: right;
     padding: 215px 230px 165px;
@@ -60,7 +52,13 @@ img {
     display: flex;
     align-items: flex-end;
     gap: 87px;
-    padding: 130px 332px 130px ;
+    padding: 130px 200px 130px ;
+}
+
+.failures img {
+    width: auto;
+    height: auto;
+    max-width: 450px;
 }
 
 .failures-container {
