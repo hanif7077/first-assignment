@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,400;1,100&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: #151414;
+    background: #fff;
+}
+
+image {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    background-image: url('./images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    padding: 215px 230px 165px;
+}
+
+.header-container {
+    text-align: right;
+    max-width: 495px;
+}
+
+.header-title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 76px;
+}
+
+.header-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 0 32px;
+    line-height: 26px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #F15B22;
+    padding: 20px 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.failures {
+    display: flex;
+    align-items: flex-end;
+    gap: 87px;
+    padding: 130px 332px 130px ;
+}
+
+.failures-container {
+    padding-bottom: 60px;
+    max-width: 415px;
+}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.failures-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.failures-container ul {
+    padding: 0 20px;
+}
+
+.failures-container ul {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.failures-points li::marker {
+    content: '✓ ';
+    font-size: 1.2em;
+    color: #16D887;
+}
+
+.plans {
+    padding-bottom: 130px;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plans-list {
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+    text-align: center;
+}
+
+.plans-lest h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.plans-lest p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
+.plans-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.mindset {
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('./images/watch.png');
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+
+.mindset-box {
+    padding: 60px 64px;
+    max-width: 600px;
+}
+
+.mindset-text {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.secondary-btn {
+    color: #F15B22;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-box {
+    background: #151414;
+    padding: 130px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 485px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.footer-text-items {
+    color: #FFFFFF;
+}
+
+.footer-box .email, .footer-box .phone {
+    margin-bottom: 16px;
+}
+
+.footer-form h3 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.footer-form input {
+    padding: 20px;
+    display: block;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    min-width: 325px;
+}
+
+.social-links a {
+    margin-right: 16px;
+    text-decoration: none;
+}
